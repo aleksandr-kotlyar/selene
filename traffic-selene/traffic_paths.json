@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/aleksandr-kotlyar/selene",
+    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
+    "count": 55,
+    "uniques": 2
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions",
+    "title": "Actions · aleksandr-kotlyar/selene",
+    "count": 55,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/pulls",
+    "title": "Pull requests · aleksandr-kotlyar/selene",
+    "count": 17,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/pulse",
+    "title": "Pulse · aleksandr-kotlyar/selene",
+    "count": 12,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/issues",
+    "title": "Issues · aleksandr-kotlyar/selene",
+    "count": 10,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
+    "title": "Traffic · aleksandr-kotlyar/selene",
+    "count": 8,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/456740860",
+    "title": "github-actions code coverage report · aleksandr-kotlyar/selene@736849c",
+    "count": 5,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/457457372",
+    "title": "Merge branch 'master' of https://github.com/aleksandr-kotlyar/selene into cod...",
+    "count": 5,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/issues/2",
+    "title": "About this fork of selene · Issue #2 · aleksandr-kotlyar/selene",
+    "count": 5,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/456582620",
+    "title": "remove cache step and debug codecov · aleksandr-kotlyar/selene@33ec085",
+    "count": 4,
+    "uniques": 1
+  }
+]
