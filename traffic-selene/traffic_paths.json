@@ -1,62 +1,62 @@
 [
   {
-    "path": "/yashaka/selene",
-    "title": "yashaka/selene: User-oriented Web UI browser tests in Python",
-    "count": 521,
-    "uniques": 147
+    "path": "/aleksandr-kotlyar/selene",
+    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
+    "count": 102,
+    "uniques": 2
   },
   {
-    "path": "/yashaka/selene/issues",
-    "title": "Issues · yashaka/selene · GitHub",
-    "count": 272,
-    "uniques": 18
+    "path": "/aleksandr-kotlyar/selene/actions",
+    "title": "Actions · aleksandr-kotlyar/selene",
+    "count": 101,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/pulls",
-    "title": "Pull requests · yashaka/selene · GitHub",
-    "count": 191,
-    "uniques": 10
+    "path": "/aleksandr-kotlyar/selene/pulls",
+    "title": "Pull requests · aleksandr-kotlyar/selene",
+    "count": 21,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/projects/2",
-    "title": "Selene 2.0.0 stable release",
-    "count": 64,
-    "uniques": 4
+    "path": "/aleksandr-kotlyar/selene/pulse",
+    "title": "Pulse · aleksandr-kotlyar/selene",
+    "count": 13,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/pull/237",
-    "title": "WIP #203 tests_past_from_past migration to selene 2.x version by aleksandr-ko...",
-    "count": 63,
-    "uniques": 3
+    "path": "/aleksandr-kotlyar/selene/branches",
+    "title": "Branches · aleksandr-kotlyar/selene",
+    "count": 11,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/projects",
-    "title": "Projects · yashaka/selene · GitHub",
-    "count": 56,
-    "uniques": 5
+    "path": "/aleksandr-kotlyar/selene/issues",
+    "title": "Issues · aleksandr-kotlyar/selene",
+    "count": 11,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/actions",
-    "title": "Actions · yashaka/selene · GitHub",
-    "count": 44,
-    "uniques": 3
+    "path": "/aleksandr-kotlyar/selene/tree/forked-traffic2badge",
+    "title": "aleksandr-kotlyar/selene at forked-traffic2badge",
+    "count": 11,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/pull/241",
-    "title": "Selene GitHub ci by aleksandr-kotlyar · Pull Request #241 · yashaka/selene",
-    "count": 41,
-    "uniques": 10
+    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
+    "title": "Traffic · aleksandr-kotlyar/selene",
+    "count": 9,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/issues/240",
-    "title": "Github actions: put tests on github workflows · Issue #240 · yashaka/selene",
-    "count": 36,
-    "uniques": 9
+    "path": "/aleksandr-kotlyar/selene/tree/traffic/traffic-selene",
+    "title": "selene/traffic-selene at traffic · aleksandr-kotlyar/selene",
+    "count": 9,
+    "uniques": 1
   },
   {
-    "path": "/yashaka/selene/issues/203",
-    "title": "Tests 2.x · Issue #203 · yashaka/selene",
-    "count": 33,
+    "path": "/aleksandr-kotlyar/selene/tree/traffic",
+    "title": "aleksandr-kotlyar/selene at traffic",
+    "count": 7,
     "uniques": 1
   }
 ]
