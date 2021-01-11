@@ -2,13 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 107,
+    "count": 113,
     "uniques": 2
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 103,
+    "count": 104,
     "uniques": 1
   },
   {
@@ -20,7 +20,13 @@
   {
     "path": "/aleksandr-kotlyar/selene/pulse",
     "title": "Pulse · aleksandr-kotlyar/selene",
-    "count": 13,
+    "count": 14,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/tree/forked-traffic2badge",
+    "title": "aleksandr-kotlyar/selene at forked-traffic2badge",
+    "count": 14,
     "uniques": 1
   },
   {
@@ -36,15 +42,9 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/tree/forked-traffic2badge",
-    "title": "aleksandr-kotlyar/selene at forked-traffic2badge",
-    "count": 11,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/graphs/traffic",
     "title": "Traffic · aleksandr-kotlyar/selene",
-    "count": 9,
+    "count": 10,
     "uniques": 1
   },
   {
