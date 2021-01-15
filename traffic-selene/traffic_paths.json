@@ -2,25 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 104,
+    "count": 91,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 102,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/pulls",
-    "title": "Pull requests · aleksandr-kotlyar/selene",
-    "count": 18,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/pulse",
-    "title": "Pulse · aleksandr-kotlyar/selene",
-    "count": 14,
+    "count": 61,
     "uniques": 1
   },
   {
@@ -30,9 +18,9 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/branches",
-    "title": "Branches · aleksandr-kotlyar/selene",
-    "count": 11,
+    "path": "/aleksandr-kotlyar/selene/pulls",
+    "title": "Pull requests · aleksandr-kotlyar/selene",
+    "count": 12,
     "uniques": 1
   },
   {
@@ -42,8 +30,8 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
-    "title": "Traffic · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/pulse",
+    "title": "Pulse · aleksandr-kotlyar/selene",
     "count": 10,
     "uniques": 1
   },
@@ -51,6 +39,18 @@
     "path": "/aleksandr-kotlyar/selene/tree/traffic/traffic-selene",
     "title": "selene/traffic-selene at traffic · aleksandr-kotlyar/selene",
     "count": 9,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/branches",
+    "title": "Branches · aleksandr-kotlyar/selene",
+    "count": 8,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
+    "title": "Traffic · aleksandr-kotlyar/selene",
+    "count": 8,
     "uniques": 1
   },
   {
