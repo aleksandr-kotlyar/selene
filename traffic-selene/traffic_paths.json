@@ -2,13 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 91,
+    "count": 78,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 61,
+    "count": 51,
     "uniques": 1
   },
   {
@@ -18,21 +18,9 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/pulls",
-    "title": "Pull requests · aleksandr-kotlyar/selene",
-    "count": 12,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/issues",
     "title": "Issues · aleksandr-kotlyar/selene",
     "count": 11,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/pulse",
-    "title": "Pulse · aleksandr-kotlyar/selene",
-    "count": 10,
     "uniques": 1
   },
   {
@@ -48,8 +36,8 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
-    "title": "Traffic · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/pulls",
+    "title": "Pull requests · aleksandr-kotlyar/selene",
     "count": 8,
     "uniques": 1
   },
@@ -57,6 +45,18 @@
     "path": "/aleksandr-kotlyar/selene/tree/traffic",
     "title": "aleksandr-kotlyar/selene at traffic",
     "count": 7,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/issues/2",
+    "title": "About this fork of selene · Issue #2 · aleksandr-kotlyar/selene",
+    "count": 6,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/466292305",
+    "title": "year value for traffic badges · aleksandr-kotlyar/selene@092ac82",
+    "count": 5,
     "uniques": 1
   }
 ]
