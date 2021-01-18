@@ -1,26 +1,20 @@
 [
   {
-    "path": "/aleksandr-kotlyar/selene",
-    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 77,
+    "path": "/aleksandr-kotlyar/selene/actions",
+    "title": "Actions · aleksandr-kotlyar/selene",
+    "count": 75,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions",
-    "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 51,
+    "path": "/aleksandr-kotlyar/selene",
+    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
+    "count": 69,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/tree/forked-traffic2badge",
     "title": "aleksandr-kotlyar/selene at forked-traffic2badge",
-    "count": 14,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/issues",
-    "title": "Issues · aleksandr-kotlyar/selene",
-    "count": 11,
+    "count": 15,
     "uniques": 1
   },
   {
@@ -38,7 +32,7 @@
   {
     "path": "/aleksandr-kotlyar/selene/pulls",
     "title": "Pull requests · aleksandr-kotlyar/selene",
-    "count": 8,
+    "count": 7,
     "uniques": 1
   },
   {
@@ -48,14 +42,20 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/issues/2",
-    "title": "About this fork of selene · Issue #2 · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/tree/fork-traffic",
+    "title": "aleksandr-kotlyar/selene at fork-traffic",
     "count": 6,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/466292305",
     "title": "year value for traffic badges · aleksandr-kotlyar/selene@092ac82",
+    "count": 5,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3",
+    "title": "aleksandr-kotlyar/selene at migrate-tests-to-v2_part-3",
     "count": 5,
     "uniques": 1
   }
