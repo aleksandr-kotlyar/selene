@@ -2,25 +2,19 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 40,
+    "count": 29,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 27,
+    "count": 23,
     "uniques": 2
   },
   {
     "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3",
     "title": "aleksandr-kotlyar/selene at migrate-tests-to-v2_part-3",
     "count": 5,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/470237458",
-    "title": "#264 pycodestyle-ignore E402,E731 (E402 module level import not at top of fil...",
-    "count": 4,
     "uniques": 1
   },
   {
@@ -42,12 +36,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/470072228",
-    "title": "#264 fix-pycodestyle E202 whitespace before ')' · aleksandr-kotlyar/selene@65...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/actions/runs/472043352",
     "title": "#262 add pylint github jobs - conventional and full-report; add .pylintrc def...",
     "count": 2,
@@ -56,6 +44,18 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/476027736",
     "title": "migrate-tests-to-v2: order_test moved to tests; removed set_driver from order...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/481099463",
+    "title": "Merge pull request #279 from aleksandr-kotlyar/migrate-tests-to-v2_auto_start...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/490222059",
+    "title": "resurrected: speed_comparison_of_simple_element_actions_test.py · aleksandr-k...",
     "count": 2,
     "uniques": 1
   }
