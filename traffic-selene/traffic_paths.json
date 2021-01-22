@@ -2,19 +2,19 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 29,
+    "count": 27,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 23,
+    "count": 18,
     "uniques": 2
   },
   {
     "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3",
     "title": "aleksandr-kotlyar/selene at migrate-tests-to-v2_part-3",
-    "count": 5,
+    "count": 6,
     "uniques": 1
   },
   {
@@ -27,18 +27,6 @@
     "path": "/aleksandr-kotlyar/selene/tree/forked-traffic2badge",
     "title": "aleksandr-kotlyar/selene at forked-traffic2badge",
     "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/pulls",
-    "title": "Pull requests · aleksandr-kotlyar/selene",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/472043352",
-    "title": "#262 add pylint github jobs - conventional and full-report; add .pylintrc def...",
-    "count": 2,
     "uniques": 1
   },
   {
@@ -56,6 +44,18 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/490222059",
     "title": "resurrected: speed_comparison_of_simple_element_actions_test.py · aleksandr-k...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/commits/migrate-tests-to-v2_part-3",
+    "title": "Commits · aleksandr-kotlyar/selene",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/pulls",
+    "title": "Pull requests · aleksandr-kotlyar/selene",
     "count": 2,
     "uniques": 1
   }
