@@ -2,13 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 27,
+    "count": 26,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 18,
+    "count": 12,
     "uniques": 2
   },
   {
@@ -20,12 +20,6 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/490081410",
     "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/tree/forked-traffic2badge",
-    "title": "aleksandr-kotlyar/selene at forked-traffic2badge",
     "count": 4,
     "uniques": 1
   },
@@ -57,6 +51,12 @@
     "path": "/aleksandr-kotlyar/selene/pulls",
     "title": "Pull requests · aleksandr-kotlyar/selene",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/475881226",
+    "title": "add tests for shared browser hold_browser_open config #53 · aleksandr-kotlyar...",
+    "count": 1,
     "uniques": 1
   }
 ]
