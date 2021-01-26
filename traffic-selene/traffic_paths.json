@@ -8,7 +8,7 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 10,
+    "count": 8,
     "uniques": 2
   },
   {
@@ -24,12 +24,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/481099463",
-    "title": "Merge pull request #279 from aleksandr-kotlyar/migrate-tests-to-v2_auto_start...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/actions/runs/490222059",
     "title": "resurrected: speed_comparison_of_simple_element_actions_test.py · aleksandr-k...",
     "count": 2,
@@ -42,12 +36,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/pulls",
-    "title": "Pull requests · aleksandr-kotlyar/selene",
-    "count": 2,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/actions/runs/490067647",
     "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
     "count": 1,
@@ -55,6 +43,18 @@
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/490092245",
+    "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/490095097",
+    "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/490104251",
     "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
     "count": 1,
     "uniques": 1
