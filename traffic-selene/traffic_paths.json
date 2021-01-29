@@ -7,9 +7,15 @@
   },
   {
     "path": "/aleksandr-kotlyar/selene",
-    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 6,
-    "uniques": 2
+    "title": "GitHub - aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
+    "count": 8,
+    "uniques": 3
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/tree/master/selene",
+    "title": "selene/selene at master · aleksandr-kotlyar/selene · GitHub",
+    "count": 5,
+    "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3",
@@ -49,12 +55,6 @@
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/490095097",
-    "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/490104251",
     "title": "resurrected: 'examples' tests; removed object parent class (in case moving to...",
     "count": 1,
     "uniques": 1
