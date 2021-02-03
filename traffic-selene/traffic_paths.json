@@ -24,12 +24,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/issues",
-    "title": "Issues · aleksandr-kotlyar/selene",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/tree/master/selene/common",
     "title": "selene/selene/common at master · aleksandr-kotlyar/selene · GitHub",
     "count": 1,
@@ -38,24 +32,6 @@
   {
     "path": "/aleksandr-kotlyar/selene/tree/master/selene/core",
     "title": "selene/selene/core at master · aleksandr-kotlyar/selene · GitHub",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3",
-    "title": "aleksandr-kotlyar/selene at migrate-tests-to-v2_part-3",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3/tests_from_past",
-    "title": "selene/tests_from_past at migrate-tests-to-v2_part-3 · aleksandr-kotlyar/selene",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/tree/migrate-tests-to-v2_part-3/tests_from_past/integration",
-    "title": "selene/tests_from_past/integration at migrate-tests-to-v2_part-3 · aleksandr-...",
     "count": 1,
     "uniques": 1
   }
