@@ -2,7 +2,19 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 2,
+    "count": 3,
+    "uniques": 2
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/commit/e1c2321f34266a955bc005968d799e7b5c5c7c62",
+    "title": "fix bug in selene v2.0.0a35: `should_not` and other `not_` aliases di… · alek...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/commits/master",
+    "title": "Commits · aleksandr-kotlyar/selene",
+    "count": 1,
     "uniques": 1
   },
   {
