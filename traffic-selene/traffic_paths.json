@@ -30,6 +30,12 @@
     "uniques": 1
   },
   {
+    "path": "/aleksandr-kotlyar/selene/issues",
+    "title": "Issues · aleksandr-kotlyar/selene",
+    "count": 2,
+    "uniques": 1
+  },
+  {
     "path": "/aleksandr-kotlyar/selene/tags",
     "title": "Tags · aleksandr-kotlyar/selene",
     "count": 2,
@@ -49,12 +55,6 @@
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions/workflows/linters.yml",
-    "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/workflows/tests.yml",
     "title": "Actions · aleksandr-kotlyar/selene",
     "count": 1,
     "uniques": 1
