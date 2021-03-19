@@ -84,9 +84,7 @@ class Condition(Callable[[E], None]):
     # }
 
     @classmethod
-    def raise_if_not(
-        cls, description: str, predicate: Predicate[E]
-    ) -> Condition[E]:
+    def raise_if_not(cls, description: str, predicate: Predicate[E]) -> Condition[E]:
         def fn(entity: E) -> None:
             if not predicate(entity):
                 raise ConditionNotMatchedError()
