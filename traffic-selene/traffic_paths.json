@@ -2,13 +2,25 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 9,
+    "count": 20,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 5,
+    "count": 13,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/branches",
+    "title": "Branches · aleksandr-kotlyar/selene",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/blob/c5414983ef84822f2de07a083f9b48160071c16e/Pipfile.lock",
+    "title": "selene/Pipfile.lock at c5414983ef84822f2de07a083f9b48160071c16e · aleksandr-k...",
+    "count": 3,
     "uniques": 1
   },
   {
@@ -30,33 +42,21 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/issues",
-    "title": "Issues · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/actions/runs/665515387",
+    "title": "lock Pipfile.lock · aleksandr-kotlyar/selene@8619367",
     "count": 2,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/tags",
-    "title": "Tags · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/actions/runs/665619239",
+    "title": "black github action · aleksandr-kotlyar/selene@8a78aa4",
     "count": 2,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/636880184",
-    "title": "add release to test-pypi job · aleksandr-kotlyar/selene@2eb6c3d",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/636884959",
-    "title": "add release to test-pypi job · aleksandr-kotlyar/selene@2eb6c3d",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/workflows/linters.yml",
-    "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 1,
+    "path": "/aleksandr-kotlyar/selene/commit/c5414983ef84822f2de07a083f9b48160071c16e",
+    "title": "Merge pull request #293 from aleksandr-kotlyar/tests_badge · aleksandr-kotlya...",
+    "count": 2,
     "uniques": 1
   }
 ]
