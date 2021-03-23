@@ -2,43 +2,25 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 22,
+    "count": 17,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 16,
+    "count": 12,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/branches",
     "title": "Branches · aleksandr-kotlyar/selene",
-    "count": 5,
+    "count": 6,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/blob/c5414983ef84822f2de07a083f9b48160071c16e/Pipfile.lock",
     "title": "selene/Pipfile.lock at c5414983ef84822f2de07a083f9b48160071c16e · aleksandr-k...",
     "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/releases",
-    "title": "Releases · aleksandr-kotlyar/selene",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/releases/new",
-    "title": "New release · aleksandr-kotlyar/selene",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/636909739",
-    "title": "trigger on release publishing · aleksandr-kotlyar/selene@917aab6",
-    "count": 2,
     "uniques": 1
   },
   {
@@ -56,6 +38,24 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/workflows/linters.yml",
     "title": "Actions · aleksandr-kotlyar/selene",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/branches/yours",
+    "title": "Branches · aleksandr-kotlyar/selene",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/commit/c5414983ef84822f2de07a083f9b48160071c16e",
+    "title": "Merge pull request #293 from aleksandr-kotlyar/tests_badge · aleksandr-kotlya...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/tree/c5414983ef84822f2de07a083f9b48160071c16e",
+    "title": "aleksandr-kotlyar/selene at c5414983ef84822f2de07a083f9b48160071c16e",
     "count": 2,
     "uniques": 1
   }
