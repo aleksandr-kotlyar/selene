@@ -1,15 +1,18 @@
-name: Python package
+name: Build and publish to PYPI
 on:
-  push:
-    tags:
-      - 'v*.*.*'
+  release:
+    types: [published]
 
 jobs:
-  build:
+  build_and_publish:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Build and publish to pypi
       uses: JRubics/poetry-publish@v1.5
       with:
-        pypi_token: ${{ secrets.PYPI_TOKEN }}
+        python_version: '3.7.10'
+        pypi_token: ${{ secrets.PYPI_TEST_API_TOKEN }}
+        build_format: 'wheel'
+        repository_name: 'testpypi'
+        repository_url: 'https://test.pypi.org/legacy/'
