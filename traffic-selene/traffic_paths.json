@@ -1,62 +1,62 @@
 [
   {
+    "path": "/aleksandr-kotlyar/selene/releases",
+    "title": "Releases · aleksandr-kotlyar/selene",
+    "count": 63,
+    "uniques": 1
+  },
+  {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 41,
+    "count": 47,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 35,
+    "count": 43,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases",
-    "title": "Releases · aleksandr-kotlyar/selene",
-    "count": 17,
+    "path": "/aleksandr-kotlyar/selene/tags",
+    "title": "Tags · aleksandr-kotlyar/selene",
+    "count": 14,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/branches",
     "title": "Branches · aleksandr-kotlyar/selene",
-    "count": 13,
+    "count": 11,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/releases/new",
     "title": "New release · aleksandr-kotlyar/selene",
+    "count": 9,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_10",
+    "title": "Release test_poetry_publish_10 · aleksandr-kotlyar/selene",
     "count": 5,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/blob/c5414983ef84822f2de07a083f9b48160071c16e/Pipfile.lock",
-    "title": "selene/Pipfile.lock at c5414983ef84822f2de07a083f9b48160071c16e · aleksandr-k...",
-    "count": 3,
+    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_7",
+    "title": "Release test_poetry_publish_7: rename job, update checkout version, test publ...",
+    "count": 4,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/tree/black-label",
-    "title": "aleksandr-kotlyar/selene at black-label",
-    "count": 3,
+    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_8",
+    "title": "Release test_poetry_publish_8 · aleksandr-kotlyar/selene",
+    "count": 4,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/665515387",
-    "title": "lock Pipfile.lock · aleksandr-kotlyar/selene@8619367",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/665619239",
-    "title": "black github action · aleksandr-kotlyar/selene@8a78aa4",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/692887532",
-    "title": "poetry-publish to pypi · aleksandr-kotlyar/selene@0867413",
-    "count": 2,
+    "path": "/aleksandr-kotlyar/selene/releases/tag/v.2.0.0a36a1",
+    "title": "Release v.2.0.0a36a1 · aleksandr-kotlyar/selene",
+    "count": 4,
     "uniques": 1
   }
 ]
