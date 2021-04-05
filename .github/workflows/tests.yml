@@ -7,34 +7,18 @@ jobs:
   test:
     name: Test selene
     runs-on: ubuntu-20.04
-    env:
-      DISPLAY: ":99"
+    container:
+      image: docker.pkg.github.com/aleksandr-kotlyar/selene/dev:2.0.0a36-5.04.2021-43
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.7'
-
-      # can be packaged as Docker-image
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install poetry
-          poetry install
-
-      # can be packaged as Docker-image
-      - name: Install Chrome & xvfb
-        run: |
-          sudo apt-get install google-chrome-stable xvfb
-          sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 &
-
       - name: Test selene with pytest
         run: |
-          poetry run pytest -sv --cov-config .coveragerc --cov-report html:skip-covered --cov-report term:skip-covered --cov=selene  --cov-report xml:coverage.xml --tb=short tests/
+          pytest -sv --cov-config .coveragerc --cov-report html:skip-covered --cov-report term:skip-covered --cov=selene  --cov-report xml:coverage.xml --tb=short tests/
           mkdir -p Artifacts/skip-covered
           cp -r skip-covered Artifacts/skip-covered
 
