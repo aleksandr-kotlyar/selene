@@ -1,5 +1,11 @@
 [
   {
+    "path": "/aleksandr-kotlyar/selene/actions",
+    "title": "Actions · aleksandr-kotlyar/selene",
+    "count": 93,
+    "uniques": 1
+  },
+  {
     "path": "/aleksandr-kotlyar/selene/releases",
     "title": "Releases · aleksandr-kotlyar/selene",
     "count": 63,
@@ -8,13 +14,7 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 44,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions",
-    "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 39,
+    "count": 59,
     "uniques": 1
   },
   {
@@ -42,20 +42,20 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_7",
-    "title": "Release test_poetry_publish_7: rename job, update checkout version, test publ...",
+    "path": "/aleksandr-kotlyar/selene/actions/runs/716969569",
+    "title": "resolve conflicts · aleksandr-kotlyar/selene@74cfbac",
     "count": 4,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_8",
-    "title": "Release test_poetry_publish_8 · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717064431",
+    "title": "replace google with duckduckgo since google started view cookie policy · alek...",
     "count": 4,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/v.2.0.0a36a1",
-    "title": "Release v.2.0.0a36a1 · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/issues",
+    "title": "Issues · aleksandr-kotlyar/selene",
     "count": 4,
     "uniques": 1
   }
