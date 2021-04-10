@@ -2,37 +2,25 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 100,
+    "count": 77,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/releases",
     "title": "Releases · aleksandr-kotlyar/selene",
-    "count": 58,
+    "count": 46,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 57,
+    "count": 40,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/tags",
     "title": "Tags · aleksandr-kotlyar/selene",
-    "count": 13,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/releases/new",
-    "title": "New release · aleksandr-kotlyar/selene",
-    "count": 9,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/branches",
-    "title": "Branches · aleksandr-kotlyar/selene",
-    "count": 8,
+    "count": 12,
     "uniques": 1
   },
   {
@@ -54,8 +42,20 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/issues",
-    "title": "Issues · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene/branches",
+    "title": "Branches · aleksandr-kotlyar/selene",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/new",
+    "title": "New release · aleksandr-kotlyar/selene",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_7",
+    "title": "Release test_poetry_publish_7: rename job, update checkout version, test publ...",
     "count": 4,
     "uniques": 1
   }
