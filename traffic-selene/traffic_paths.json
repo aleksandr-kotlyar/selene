@@ -14,7 +14,7 @@
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 40,
+    "count": 36,
     "uniques": 1
   },
   {
@@ -42,12 +42,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/branches",
-    "title": "Branches · aleksandr-kotlyar/selene",
-    "count": 4,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/releases/new",
     "title": "New release · aleksandr-kotlyar/selene",
     "count": 4,
@@ -56,6 +50,12 @@
   {
     "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_7",
     "title": "Release test_poetry_publish_7: rename job, update checkout version, test publ...",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_8",
+    "title": "Release test_poetry_publish_8 · aleksandr-kotlyar/selene",
     "count": 4,
     "uniques": 1
   }
