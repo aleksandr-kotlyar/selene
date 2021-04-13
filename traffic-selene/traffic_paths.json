@@ -2,31 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 77,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/releases",
-    "title": "Releases · aleksandr-kotlyar/selene",
-    "count": 46,
+    "count": 61,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 35,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/tags",
-    "title": "Tags · aleksandr-kotlyar/selene",
-    "count": 12,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_10",
-    "title": "Release test_poetry_publish_10 · aleksandr-kotlyar/selene",
-    "count": 5,
+    "count": 21,
     "uniques": 1
   },
   {
@@ -42,21 +24,39 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/new",
-    "title": "New release · aleksandr-kotlyar/selene",
-    "count": 4,
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717035686",
+    "title": "Merge branch 'master' of https://github.com/yashaka/selene into migrate-tests...",
+    "count": 3,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_7",
-    "title": "Release test_poetry_publish_7: rename job, update checkout version, test publ...",
-    "count": 4,
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717383937",
+    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
+    "count": 3,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/test_poetry_publish_8",
-    "title": "Release test_poetry_publish_8 · aleksandr-kotlyar/selene",
-    "count": 4,
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717322297",
+    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717328177",
+    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717388276",
+    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/717400384",
+    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
+    "count": 2,
     "uniques": 1
   }
 ]
