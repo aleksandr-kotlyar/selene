@@ -2,61 +2,31 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 61,
+    "count": 7,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 19,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/716969569",
-    "title": "resolve conflicts · aleksandr-kotlyar/selene@74cfbac",
     "count": 4,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717064431",
-    "title": "replace google with duckduckgo since google started view cookie policy · alek...",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717035686",
-    "title": "Merge branch 'master' of https://github.com/yashaka/selene into migrate-tests...",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717383937",
+    "path": "/aleksandr-kotlyar/selene/actions/runs/718602074",
     "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
-    "count": 3,
+    "count": 1,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717322297",
-    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
-    "count": 2,
+    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
+    "title": "Traffic · aleksandr-kotlyar/selene",
+    "count": 1,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717328177",
-    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717388276",
-    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/717400384",
-    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
-    "count": 2,
+    "path": "/aleksandr-kotlyar/selene/pulse",
+    "title": "Pulse · aleksandr-kotlyar/selene",
+    "count": 1,
     "uniques": 1
   }
 ]
