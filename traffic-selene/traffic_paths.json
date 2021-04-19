@@ -1,32 +1,8 @@
 [
   {
-    "path": "/aleksandr-kotlyar/selene/actions",
-    "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 7,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/718602074",
-    "title": "use docker pkg image instead of downloading&installing dependencies · aleksan...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/graphs/traffic",
-    "title": "Traffic · aleksandr-kotlyar/selene",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/pulse",
-    "title": "Pulse · aleksandr-kotlyar/selene",
-    "count": 1,
+    "count": 3,
     "uniques": 1
   }
 ]
