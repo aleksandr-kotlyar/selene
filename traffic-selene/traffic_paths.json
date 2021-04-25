@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "path": "/aleksandr-kotlyar/selene/releases",
+    "title": "Releases · aleksandr-kotlyar/selene",
+    "count": 37,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions",
+    "title": "Actions · aleksandr-kotlyar/selene",
+    "count": 29,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/tag/2.0.0a37",
+    "title": "Release 2.0.0a37 · aleksandr-kotlyar/selene",
+    "count": 24,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene",
+    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
+    "count": 17,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/new",
+    "title": "New release · aleksandr-kotlyar/selene",
+    "count": 11,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/tags",
+    "title": "Tags · aleksandr-kotlyar/selene",
+    "count": 8,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/780402676",
+    "title": "test release to pypi with bumping version · aleksandr-kotlyar/selene@82b7725",
+    "count": 6,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/780383058",
+    "title": "test release to pypi with bumping version · aleksandr-kotlyar/selene@f926591",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/780391293",
+    "title": "bump version up to 2.0.0a37 · aleksandr-kotlyar/selene@fc38991",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/releases/tag/2.0.0a38",
+    "title": "Release 2.0.0a38 · aleksandr-kotlyar/selene",
+    "count": 3,
+    "uniques": 1
+  }
+]
