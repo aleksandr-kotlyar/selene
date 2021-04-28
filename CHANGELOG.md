@@ -1,11 +1,11 @@
 # Changelog
 
 ## next
-- consider adding config.quit_user_driver_on_exit (maybe even True by default, maybe not...)
-- case insensitive versions of conditions like have.attribute(...).value(...)
+- consider adding `config.quit_user_driver_on_exit` (maybe even `True` by default, maybe not...)
+- case insensitive versions of conditions like `have.attribute(...).value(...)`
   - experimental impl was already added in 2.0.0a16
-- consider making have.size to work with elements too...
-- maybe somewhen in 3.0 consider adding selene.support.shared.selenide module
+- consider making `have.size` to work with elements too...
+- maybe somewhen in 3.0 consider adding `selene.support.shared.selenide` module
   - with selenide style api
     - like s, ss, open_url
     - SelenideElement#find, #find_all
@@ -39,8 +39,8 @@
 - or maybe remove all deprecated stuff only in 3.0?
 
 ## 2.0.0aNEXT (to be released on ??.??.2020)
-- config.browser_name -> config.name was bad idea
-  - but config.executor accepting both 'chrome'/'firefox' or 'http://<remoteurl>'
+- `config.browser_name` -> `config.name` was bad idea
+  - but `config.executor` accepting both 'chrome'/'firefox' or `'http://<remoteurl>'`
     - might be a good idea... think on it... 
 - DOING: update docs
 - GIVEN some.should(be.visible) and another.with_(timeout=2).should(be.visible)
@@ -53,7 +53,7 @@
 - todo consider adding element.caching as lazy version of element.cached
 - consider adding hold_browser_opened_on_failure
 - consider browser.open() over browser.open('') (use some smart defaults)
-- consider cofig.headless = False like in selenide 
+- consider config.headless = False like in selenide 
   - `this.browser = new Browser(config.browser(), config.headless());`
   
 ## 2.0.0a2x+1 (to be released on ?.??.2020)
@@ -62,14 +62,14 @@
   - maybe make browser.switch ... to work with retry logic
     or make separate command.switch...
 - ensure we can't element.type on invisible element; add test for that
-- use __all__ in selene api imports, etc
-  - The variable __all__ is a list of public objects of that module, as interpreted by import *. ... In other words, __all__ is a list of strings defining what symbols in a module will be exported when from <module> import * is used on the module
+- use `__all__` in selene api imports, etc
+  - The variable `__all__` is a list of public objects of that module, as interpreted by `import *`. ... In other words, `__all__` is a list of strings defining what symbols in a module will be exported when `from <module> import *` is used on the module
 
   
 ## 2.0.0a2x (to be released on ?.08.2020)
 - todo: improve for other all.* methods (in addition to improved errors from browser.all.element_by)
-- todo: why in the past we had when outer_html this: '<button class="destroy" type="submit" displayed:false></button>'
-  - but now we have this: '<button class="destroy" type="submit"></button>'?
+- todo: why in the past we had when outer_html this: `'<button class="destroy" type="submit" displayed:false></button>'`
+  - but now we have this: `'<button class="destroy" type="submit"></button>'`?
     - can we improve it?
 - add browser.all('.item').last?
 - make browser.switch_to.frame to accept element
@@ -77,8 +77,11 @@
 - repeat fix of #225 to other options in shared config, refactor it... 
   - should we make original config (not shared) mutable?
 
+## 2.0.0a38 (released on 29.04.2021)
+- Upgrade webdriver-manager to version 3.4.1 [#336](https://github.com/yashaka/selene/pull/336)
+
 ## 2.0.0a37 (released on 24.04.2021)
-- Update webdriver-manager to version 3.3.0 [#299](https://github.com/yashaka/selene/issues/299)
+- Upgrade webdriver-manager to version 3.3.0 [#299](https://github.com/yashaka/selene/issues/299)
 - New release and publish process of selene [#246](https://github.com/yashaka/selene/issues/246#issuecomment-825897200)
 
 ## 2.0.0a36 (released on 30.03.2021)
