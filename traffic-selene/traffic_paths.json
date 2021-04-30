@@ -2,7 +2,7 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 39,
+    "count": 45,
     "uniques": 1
   },
   {
@@ -12,15 +12,15 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/releases/tag/2.0.0a37",
-    "title": "Release 2.0.0a37 · aleksandr-kotlyar/selene",
+    "path": "/aleksandr-kotlyar/selene",
+    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
     "count": 24,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene",
-    "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 20,
+    "path": "/aleksandr-kotlyar/selene/releases/tag/2.0.0a37",
+    "title": "Release 2.0.0a37 · aleksandr-kotlyar/selene",
+    "count": 24,
     "uniques": 1
   },
   {
