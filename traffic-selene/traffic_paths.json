@@ -2,31 +2,19 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions",
     "title": "Actions · aleksandr-kotlyar/selene",
-    "count": 20,
+    "count": 19,
     "uniques": 2
   },
   {
     "path": "/aleksandr-kotlyar/selene",
     "title": "aleksandr-kotlyar/selene: User-oriented Web UI browser tests in Python",
-    "count": 12,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/pulls",
-    "title": "Pull requests · aleksandr-kotlyar/selene",
-    "count": 3,
+    "count": 11,
     "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/selene/tree/pypistats",
     "title": "aleksandr-kotlyar/selene at pypistats",
     "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/selene/actions/runs/782416061",
-    "title": "bump version up to 2.0.0a37 · aleksandr-kotlyar/selene@6ba4811",
-    "count": 2,
     "uniques": 1
   },
   {
@@ -38,6 +26,12 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/819436421",
     "title": "upgrade codecov action 1.4.1 -> 1.5.0 · aleksandr-kotlyar/selene@3e9321f",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/pulls",
+    "title": "Pull requests · aleksandr-kotlyar/selene",
     "count": 2,
     "uniques": 1
   },
@@ -56,6 +50,12 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/819572097",
     "title": "execute tests if diff is relevant to test · aleksandr-kotlyar/selene@5ede8a6",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/819581142",
+    "title": "execute tests if diff is relevant to test · aleksandr-kotlyar/selene@89fde68",
     "count": 1,
     "uniques": 1
   }
