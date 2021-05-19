@@ -12,12 +12,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/selene/tree/pypistats",
-    "title": "aleksandr-kotlyar/selene at pypistats",
-    "count": 3,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/selene/actions/runs/819436421",
     "title": "upgrade codecov action 1.4.1 -> 1.5.0 · aleksandr-kotlyar/selene@3e9321f",
     "count": 2,
@@ -56,6 +50,12 @@
   {
     "path": "/aleksandr-kotlyar/selene/actions/runs/819605975",
     "title": "execute tests if diff is relevant to test · aleksandr-kotlyar/selene@b7c1b68",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/selene/actions/runs/819615266",
+    "title": "execute tests if diff is relevant to test · aleksandr-kotlyar/selene@2615035",
     "count": 1,
     "uniques": 1
   }
