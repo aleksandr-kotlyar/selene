@@ -48,27 +48,26 @@ jobs:
 
       - name: Test selene with pytest
         run: |
-          poetry run pytest -sv --cov-config .coveragerc --cov-report html:skip-covered --cov-report term:skip-covered --cov=selene  --cov-report xml:coverage.xml --tb=short tests/ --headless=True
-          mkdir -p Artifacts/skip-covered
-          cp -r skip-covered Artifacts/skip-covered
+          pip3 install pytest-repeat
+          poetry run pytest --tb=short tests/integration/element__type_test.py::test_type_waits_for_no_overlay --headless=True --count=2000
         if: env.GIT_DIFF
 
-      # can be improved by flags/options
-      - name: Code Coverage
-        uses: codecov/codecov-action@v2
-        with:
-          file: ./coverage.xml # optional
-          name: selene-codecov # optional
-          fail_ci_if_error: true # optional (default = false)
-          verbose: true
-        if: env.GIT_DIFF
+#      # can be improved by flags/options
+#      - name: Code Coverage
+#        uses: codecov/codecov-action@v2
+#        with:
+#          file: ./coverage.xml # optional
+#          name: selene-codecov # optional
+#          fail_ci_if_error: true # optional (default = false)
+#          verbose: true
+#        if: env.GIT_DIFF
 
-      # can be organized better
-      - name: Upload pytest test results
-        uses: actions/upload-artifact@v2
-        with:
-          name: Code coverage
-          path: |
-            Artifacts
-            coverage.xml
-        if: env.GIT_DIFF
+#      # can be organized better
+#      - name: Upload pytest test results
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: Code coverage
+#          path: |
+#            Artifacts
+#            coverage.xml
+#        if: env.GIT_DIFF
