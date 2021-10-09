@@ -28,7 +28,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selene import have, be
 from selene.core.exceptions import TimeoutException
 from selene.support.shared import browser, config
-from tests.helpers import headless_chrome_options
 
 
 EMPTY_PAGE_URL = (
@@ -47,11 +46,7 @@ def setup_function():
 
 
 def setup_module():
-    browser.set_driver(
-        webdriver.Chrome(
-            ChromeDriverManager().install(), options=headless_chrome_options()
-        )
-    )
+    browser.set_driver(webdriver.Chrome(ChromeDriverManager().install()))
 
 
 def teardown_module():
