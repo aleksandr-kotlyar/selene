@@ -37,7 +37,7 @@ def test_wait_until_progress_bar_disappears_in_time(function_browser):
     show_dialog_btn = function_browser.element('.btn-primary')
     dialog = function_browser.element('.modal-backdrop.fade.in')
     function_browser.open(
-        'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
+        'https://demo.seleniumeasy.com/bootstrap-progress-bar-dialog-demo.html'
     )
 
     show_dialog_btn.click()
@@ -59,7 +59,7 @@ def test_wait_until_progress_bar_does_not_disappear_in_time(function_browser):
     show_dialog_btn = function_browser.element('.btn-primary')
     dialog = function_browser.element('.modal-backdrop.fade.in')
     function_browser.open(
-        'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
+        'https://demo.seleniumeasy.com/bootstrap-progress-bar-dialog-demo.html'
     )
 
     show_dialog_btn.click()
@@ -81,7 +81,7 @@ def test_wait_at_most_progress_bar_disappears_in_time(function_browser):
     show_dialog_btn = function_browser.element('.btn-primary')
     dialog = function_browser.element('.modal-backdrop.fade.in')
     function_browser.open(
-        'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
+        'https://demo.seleniumeasy.com/bootstrap-progress-bar-dialog-demo.html'
     )
 
     show_dialog_btn.click()
@@ -106,7 +106,7 @@ def test_wait_at_most_progress_bar_does_not_disappear_in_time(
     show_dialog_btn = function_browser.element('.btn-primary')
     dialog = function_browser.element('.modal-backdrop.fade.in')
     function_browser.open(
-        'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
+        'https://demo.seleniumeasy.com/bootstrap-progress-bar-dialog-demo.html'
     )
 
     show_dialog_btn.click()
