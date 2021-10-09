@@ -20,23 +20,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 import pytest
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 
-from selene import Browser, Config
+from selene.core.exceptions import TimeoutException
 from selene.support.conditions import be
 
 
-@pytest.fixture(scope='function')
-def browser():
-    browser = Browser(
-        Config(driver=webdriver.Chrome(ChromeDriverManager().install()))
-    )
-    yield browser
-    browser.quit()
-
-
-def test_progress_bar_disappears_in_time(browser):
+def test_wait_until_progress_bar_disappears_in_time(function_browser):
     """Test for page with progress bar that appears each time after click on a button.
 
     Test should use wait_until for progress bar to disappear
@@ -45,9 +34,9 @@ def test_progress_bar_disappears_in_time(browser):
         else
             fail the test
     """
-    show_dialog_btn = browser.element('.btn-primary')
-    dialog = browser.element('.modal-backdrop.fade.in')
-    browser.open(
+    show_dialog_btn = function_browser.element('.btn-primary')
+    dialog = function_browser.element('.modal-backdrop.fade.in')
+    function_browser.open(
         'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
     )
 
@@ -58,7 +47,7 @@ def test_progress_bar_disappears_in_time(browser):
     assert disappeared is True
 
 
-def test_progress_bar_does_not_disappear_in_time(browser):
+def test_wait_until_progress_bar_does_not_disappear_in_time(function_browser):
     """Test for page with progress bar that appears each time after click on a button.
 
     Test should use wait_until for progress bar to not disappear in timeout
@@ -67,14 +56,63 @@ def test_progress_bar_does_not_disappear_in_time(browser):
         else
             fail the test
     """
-    show_dialog_btn = browser.element('.btn-primary')
-    dialog = browser.element('.modal-backdrop.fade.in')
-    browser.open(
+    show_dialog_btn = function_browser.element('.btn-primary')
+    dialog = function_browser.element('.modal-backdrop.fade.in')
+    function_browser.open(
         'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
     )
 
     show_dialog_btn.click()
     dialog.should(be.visible)
-    disappeared = dialog.with_(Config(timeout=1)).wait_until(be.not_.present)
+    disappeared = dialog.with_(timeout=1).wait_until(be.not_.present)
 
+    assert disappeared is False
+
+
+def test_wait_at_most_progress_bar_disappears_in_time(function_browser):
+    """Test for page with progress bar that appears each time after click on a button.
+
+    Test should use wait_until for progress bar to disappear
+        if disappeared:
+            pass the test
+        else
+            fail the test
+    """
+    show_dialog_btn = function_browser.element('.btn-primary')
+    dialog = function_browser.element('.modal-backdrop.fade.in')
+    function_browser.open(
+        'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
+    )
+
+    show_dialog_btn.click()
+    dialog.should(be.visible)
+    dialog.wait.at_most(4).for_(be.not_.present)
+    disappeared = dialog.matching(be.not_.present)
+
+    assert disappeared is True
+
+
+def test_wait_at_most_progress_bar_does_not_disappear_in_time(
+    function_browser,
+):
+    """Test for page with progress bar that appears each time after click on a button.
+
+    Test should use wait_until for progress bar to not disappear in timeout
+        if not disappeared:
+            pass the test
+        else
+            fail the test
+    """
+    show_dialog_btn = function_browser.element('.btn-primary')
+    dialog = function_browser.element('.modal-backdrop.fade.in')
+    function_browser.open(
+        'https://www.seleniumeasy.com/test/bootstrap-progress-bar-dialog-demo.html'
+    )
+
+    show_dialog_btn.click()
+    dialog.should(be.visible)
+    with pytest.raises(TimeoutException) as ex:
+        dialog.wait.at_most(1).for_(be.not_.present)
+
+    disappeared = dialog.matching(be.not_.present)
     assert disappeared is False
