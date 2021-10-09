@@ -19,13 +19,14 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
+import os
 import time
+
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 def time_spent(function, *args, **kwargs):
-
     start_time = time.time()
     function(*args, **kwargs)
     end_time = time.time()
@@ -49,3 +50,15 @@ def headless_chrome_options():
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-setuid-sandbox")
     return options
+
+
+def chrome_driver():
+    headless = int(os.getenv('HEADLESS'))
+    return (
+        webdriver.Chrome(
+            ChromeDriverManager().install(),
+            options=headless_chrome_options(),
+        )
+        if headless
+        else webdriver.Chrome(ChromeDriverManager().install())
+    )
