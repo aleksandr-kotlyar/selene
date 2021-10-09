@@ -1,5 +1,9 @@
-from selene.support.shared import browser
 from selene import have, be
+from selene.support.shared import browser
+
+
+def teardown_module():
+    browser.config.timeout = 4
 
 
 def test_one_element_when_enabled():
