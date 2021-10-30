@@ -5,14 +5,18 @@ on: [push, pull_request]
 jobs:
 
   test:
-    name: Test selene
-    runs-on: ubuntu-20.04
+    name: Tests
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ '3.7', '3.10' ]
+
     env:
       DISPLAY: ":99"
     steps:
 
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - uses: technote-space/get-diff-action@v5
         with:
@@ -22,10 +26,10 @@ jobs:
             poetry.lock
             tests.yml
 
-      - name: Set up Python
+      - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
-          python-version: '3.7'
+          python-version: ${{ matrix.python-version }}
         if: env.GIT_DIFF
 
       # can be packaged as Docker-image

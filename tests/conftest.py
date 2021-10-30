@@ -1,4 +1,6 @@
 import os
+import time
+from datetime import datetime
 
 import pytest
 
@@ -33,12 +35,53 @@ def session_chrome_driver():
 
 
 @pytest.fixture(scope='function')
-def session_browser(session_chrome_driver):
+def session_browser(session_chrome_driver, request):
     yield Browser(Config(driver=session_chrome_driver))
+
+    if request.node.rep_setup.failed:
+        print("setting up a test failed!", request.node.nodeid)
+    elif request.node.rep_setup.passed:
+        if request.node.rep_call.failed:
+            driver = request.node.funcargs['session_browser'].driver
+            take_screenshot(driver, request.node.nodeid)
+            print("executing test failed", request.node.nodeid)
 
 
 @pytest.fixture(scope='function')
-def function_browser():
+def function_browser(request):
     driver = chrome_driver()
+
     yield Browser(Config(driver=driver))
+
+    if request.node.rep_setup.failed:
+        print("setting up a test failed!", request.node.nodeid)
+    elif request.node.rep_setup.passed:
+        if request.node.rep_call.failed:
+            driver = request.node.funcargs['function_browser'].driver
+            take_screenshot(driver, request.node.nodeid)
+            print("executing test failed", request.node.nodeid)
+
     driver.quit()
+
+
+@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    """Set up a hook to be able to check if a test has failed."""
+    # execute all other hooks to obtain the report object
+    outcome = yield
+    rep = outcome.get_result()
+
+    # set a report attribute for each phase of a call, which can
+    # be "setup", "call", "teardown"
+
+    setattr(item, "rep_" + rep.when, rep)
+
+
+def take_screenshot(driver, nodeid):
+    """Make a screenshot with a name of the test, date and time."""
+    time.sleep(1)
+    file_name = (
+        f'{nodeid}_{datetime.today().strftime("%Y-%m-%d_%H:%M")}.png'
+        .replace("/", "_").replace("::", "__")
+    )
+    driver.save_screenshot(file_name)
