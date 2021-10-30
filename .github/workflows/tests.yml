@@ -7,6 +7,10 @@ jobs:
   test:
     name: Test selene
     runs-on: ubuntu-20.04
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ '3.7', '3.10' ]
     env:
       DISPLAY: ":99"
     steps:
@@ -22,10 +26,10 @@ jobs:
             poetry.lock
             tests.yml
 
-      - name: Set up Python
+      - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
-          python-version: '3.7'
+          python-version: ${{ matrix.python-version }}
         if: env.GIT_DIFF
 
       # can be packaged as Docker-image

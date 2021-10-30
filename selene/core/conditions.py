@@ -23,13 +23,13 @@ from selene.core.condition import Condition
 from selene.core.entity import Browser, Element, Collection
 
 
-class ElementCondition(Condition[Element]):
+class ElementCondition(Condition[[], Element]):
     pass
 
 
-class CollectionCondition(Condition[Collection]):
+class CollectionCondition(Condition[[], Collection]):
     pass
 
 
-class BrowserCondition(Condition[Browser]):
+class BrowserCondition(Condition[[], Browser]):
     pass

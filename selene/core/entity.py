@@ -526,7 +526,7 @@ class Element(WaitingEntity):
     # we need this method here in order to make autocompletion work...
     # unfortunately the "base class" version is not enough
     def should(
-        self, condition: Condition[Element], timeout: int = None
+        self, condition: Condition[[], Element], timeout: int = None
     ) -> Element:
         if timeout:
             warnings.warn(
@@ -1014,7 +1014,7 @@ class Collection(WaitingEntity):
         return self[:stop]
 
     def filtered_by(
-        self, condition: Union[Condition[Element], Callable[[E], None]]
+        self, condition: Union[Condition[[], Element], Callable[[E], None]]
     ) -> Collection:
         condition = (
             condition
@@ -1037,7 +1037,7 @@ class Collection(WaitingEntity):
     def filtered_by_their(
         self,
         selector_or_callable: Union[str, tuple, Callable[[Element], Element]],
-        condition: Condition[Element],
+        condition: Condition[[], Element],
     ) -> Collection:
         """
         :param selector_or_callable:
@@ -1100,7 +1100,7 @@ class Collection(WaitingEntity):
         return self.filtered_by(lambda it: condition(find_in(it)))
 
     def element_by(
-        self, condition: Union[Condition[Element], Callable[[E], None]]
+        self, condition: Union[Condition[[], Element], Callable[[E], None]]
     ) -> Element:
         # todo: In the implementation below...
         #       We use condition in context of "matching", i.e. as a predicate...
@@ -1162,7 +1162,7 @@ class Collection(WaitingEntity):
     def element_by_its(
         self,
         selector_or_callable: Union[str, tuple, Callable[[Element], Element]],
-        condition: Condition[Element],
+        condition: Condition[[], Element],
     ) -> Element:
         """
         :param selector_or_callable:
@@ -1318,7 +1318,7 @@ class Collection(WaitingEntity):
 
     def should(
         self,
-        condition: Union[Condition[Collection], Condition[Element]],
+        condition: Union[Condition[[], Collection], Condition[[], Element]],
         timeout: int = None,
     ) -> Collection:
         if isinstance(condition, ElementCondition):
@@ -1361,21 +1361,21 @@ class Collection(WaitingEntity):
         )
         return self.cached
 
-    def all_by(self, condition: Condition[Element]) -> Collection:
+    def all_by(self, condition: Condition[[], Element]) -> Collection:
         warnings.warn(
             "deprecated; use `filtered_by` instead: browser.all('.foo').filtered_by(be.enabled)",
             DeprecationWarning,
         )
         return self.filtered_by(condition)
 
-    def filter_by(self, condition: Condition[Element]) -> Collection:
+    def filter_by(self, condition: Condition[[], Element]) -> Collection:
         warnings.warn(
             "deprecated; use `filtered_by` instead: browser.all('.foo').filtered_by(be.enabled)",
             DeprecationWarning,
         )
         return self.filtered_by(condition)
 
-    def find_by(self, condition: Condition[Element]) -> Element:
+    def find_by(self, condition: Condition[[], Element]) -> Element:
         warnings.warn(
             "deprecated; use `element_by` instead: browser.all('.foo').element_by(be.enabled)",
             DeprecationWarning,

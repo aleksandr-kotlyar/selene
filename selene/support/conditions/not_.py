@@ -28,32 +28,32 @@ from selene.core import match as _match
 from selene.core.condition import Condition
 from selene.core.entity import Element, Collection, Browser
 
-visible: Condition[Element] = _match.element_is_visible.not_
-hidden: Condition[Element] = _match.element_is_hidden.not_
+visible: Condition[[], Element] = _match.element_is_visible.not_
+hidden: Condition[[], Element] = _match.element_is_hidden.not_
 
-present: Condition[Element] = _match.element_is_present.not_
-in_dom: Condition[Element] = _match.element_is_present.not_
+present: Condition[[], Element] = _match.element_is_present.not_
+in_dom: Condition[[], Element] = _match.element_is_present.not_
 # todo: do we need both present and in_dom?
 # todo: consider deprecating existing
-existing: Condition[Element] = _match.element_is_present.not_
+existing: Condition[[], Element] = _match.element_is_present.not_
 
-absent: Condition[Element] = _match.element_is_absent.not_
+absent: Condition[[], Element] = _match.element_is_absent.not_
 
-enabled: Condition[Element] = _match.element_is_enabled.not_
-disabled: Condition[Element] = _match.element_is_disabled.not_
+enabled: Condition[[], Element] = _match.element_is_enabled.not_
+disabled: Condition[[], Element] = _match.element_is_disabled.not_
 
-blank: Condition[Element] = _match.element_is_blank.not_
+blank: Condition[[], Element] = _match.element_is_blank.not_
 
 
 # --- have.* conditions --- #
 
 
-def exact_text(value) -> Condition[Element]:
+def exact_text(value) -> Condition[[], Element]:
     return _match.element_has_exact_text(value).not_
 
 
 # todo: consider accepting int
-def text(partial_value) -> Condition[Element]:
+def text(partial_value) -> Condition[[], Element]:
     return _match.element_has_text(partial_value).not_
 
 
@@ -68,18 +68,18 @@ def attribute(name: str, value: str = None):
     original = _match.element_has_attribute(name)
     negated = original.not_
 
-    def value(self, expected: str, ignore_case=False) -> Condition[Element]:
+    def value(self, expected: str, ignore_case=False) -> Condition[[], Element]:
         return original.value(expected, ignore_case).not_
 
     def value_containing(
         self, expected: str, ignore_case=False
-    ) -> Condition[Element]:
+    ) -> Condition[[], Element]:
         return original.value_containing(expected, ignore_case).not_
 
-    def values(self, *expected: str) -> Condition[Collection]:
+    def values(self, *expected: str) -> Condition[[], Collection]:
         return original.values(*expected).not_
 
-    def values_containing(self, *expected: str) -> Condition[Collection]:
+    def values_containing(self, *expected: str) -> Condition[[], Collection]:
         return original.values_containing(*expected).not_
 
     negated.value = value
@@ -101,16 +101,16 @@ def js_property(name: str, value: str = None):
     original = _match.element_has_js_property(name)
     negated = original.not_
 
-    def value(self, expected: str) -> Condition[Element]:
+    def value(self, expected: str) -> Condition[[], Element]:
         return original.value(expected).not_
 
-    def value_containing(self, expected: str) -> Condition[Element]:
+    def value_containing(self, expected: str) -> Condition[[], Element]:
         return original.value_containing(expected).not_
 
-    def values(self, *expected: str) -> Condition[Collection]:
+    def values(self, *expected: str) -> Condition[[], Collection]:
         return original.values(*expected).not_
 
-    def values_containing(self, *expected: str) -> Condition[Collection]:
+    def values_containing(self, *expected: str) -> Condition[[], Collection]:
         return original.values_containing(*expected).not_
 
     negated.value = value
@@ -132,16 +132,16 @@ def css_property(name: str, value: str = None):
     original = _match.element_has_css_property(name)
     negated = original.not_
 
-    def value(self, expected: str) -> Condition[Element]:
+    def value(self, expected: str) -> Condition[[], Element]:
         return original.value(expected).not_
 
-    def value_containing(self, expected: str) -> Condition[Element]:
+    def value_containing(self, expected: str) -> Condition[[], Element]:
         return original.value_containing(expected).not_
 
-    def values(self, *expected: str) -> Condition[Collection]:
+    def values(self, *expected: str) -> Condition[[], Collection]:
         return original.values(*expected).not_
 
-    def values_containing(self, *expected: str) -> Condition[Collection]:
+    def values_containing(self, *expected: str) -> Condition[[], Collection]:
         return original.values_containing(*expected).not_
 
     negated.value = value
@@ -152,46 +152,46 @@ def css_property(name: str, value: str = None):
     return negated
 
 
-def value(text) -> Condition[Element]:
+def value(text) -> Condition[[], Element]:
     return _match.element_has_value(text).not_
 
 
-def value_containing(partial_text) -> Condition[Element]:
+def value_containing(partial_text) -> Condition[[], Element]:
     return _match.element_has_value_containing(partial_text).not_
 
 
-def css_class(name) -> Condition[Element]:
+def css_class(name) -> Condition[[], Element]:
     return _match.element_has_css_class(name).not_
 
 
-def tag(name: str) -> Condition[Element]:
+def tag(name: str) -> Condition[[], Element]:
     return _match.element_has_tag(name).not_
 
 
-def tag_containing(name: str) -> Condition[Element]:
+def tag_containing(name: str) -> Condition[[], Element]:
     return _match.element_has_tag_containing(name).not_
 
 
 # *** SeleneCollection conditions ***
 
 
-def size(number: int) -> Condition[Collection]:
+def size(number: int) -> Condition[[], Collection]:
     return _match.collection_has_size(number).not_
 
 
-def size_less_than(number: int) -> Condition[Collection]:
+def size_less_than(number: int) -> Condition[[], Collection]:
     return _match.collection_has_size_less_than(number).not_
 
 
-def size_less_than_or_equal(number: int) -> Condition[Collection]:
+def size_less_than_or_equal(number: int) -> Condition[[], Collection]:
     return _match.collection_has_size_less_than_or_equal(number).not_
 
 
-def size_greater_than(number: int) -> Condition[Collection]:
+def size_greater_than(number: int) -> Condition[[], Collection]:
     return _match.collection_has_size_greater_than(number).not_
 
 
-def size_at_least(number: int) -> Condition[Collection]:
+def size_at_least(number: int) -> Condition[[], Collection]:
     warnings.warn(
         'might be deprecated; use have.size_greater_than_or_equal instead',
         PendingDeprecationWarning,
@@ -199,56 +199,56 @@ def size_at_least(number: int) -> Condition[Collection]:
     return _match.collection_has_size_greater_than_or_equal(number).not_
 
 
-def size_greater_than_or_equal(number: int) -> Condition[Collection]:
+def size_greater_than_or_equal(number: int) -> Condition[[], Collection]:
     return _match.collection_has_size_greater_than_or_equal(number).not_
 
 
 # todo: consider accepting ints
-def texts(*partial_values: str) -> Condition[Collection]:
+def texts(*partial_values: str) -> Condition[[], Collection]:
     return _match.collection_has_texts(*partial_values).not_
 
 
-def exact_texts(*values: str) -> Condition[Collection]:
+def exact_texts(*values: str) -> Condition[[], Collection]:
     return _match.collection_has_exact_texts(*values).not_
 
 
-def url(exact_value: str) -> Condition[Browser]:
+def url(exact_value: str) -> Condition[[], Browser]:
     return _match.browser_has_url(exact_value).not_
 
 
-def url_containing(partial_value: str) -> Condition[Browser]:
+def url_containing(partial_value: str) -> Condition[[], Browser]:
     return _match.browser_has_url_containing(partial_value).not_
 
 
-def title(exact_value: str) -> Condition[Browser]:
+def title(exact_value: str) -> Condition[[], Browser]:
     return _match.browser_has_title(exact_value).not_
 
 
-def title_containing(partial_value: str) -> Condition[Browser]:
+def title_containing(partial_value: str) -> Condition[[], Browser]:
     return _match.browser_has_title_containing(partial_value).not_
 
 
-def tabs_number(value: int) -> Condition[Browser]:
+def tabs_number(value: int) -> Condition[[], Browser]:
     return _match.browser_has_tabs_number(value).not_
 
 
-def tabs_number_less_than(value: int) -> Condition[Browser]:
+def tabs_number_less_than(value: int) -> Condition[[], Browser]:
     return _match.browser_has_tabs_number_less_than(value).not_
 
 
-def tabs_number_less_than_or_equal(value: int) -> Condition[Browser]:
+def tabs_number_less_than_or_equal(value: int) -> Condition[[], Browser]:
     return _match.browser_has_tabs_number_less_than_or_equal(value).not_
 
 
-def tabs_number_greater_than(value: int) -> Condition[Browser]:
+def tabs_number_greater_than(value: int) -> Condition[[], Browser]:
     return _match.browser_has_tabs_number_greater_than(value).not_
 
 
-def tabs_number_greater_than_or_equal(value: int) -> Condition[Browser]:
+def tabs_number_greater_than_or_equal(value: int) -> Condition[[], Browser]:
     return _match.browser_has_tabs_number_greater_than_or_equal(value).not_
 
 
-def js_returned_true(script_to_return_bool: str) -> Condition[Browser]:
+def js_returned_true(script_to_return_bool: str) -> Condition[[], Browser]:
     warnings.warn(
         'might be deprecated; use have.js_returned(True, ...) instead',
         PendingDeprecationWarning,
@@ -256,5 +256,5 @@ def js_returned_true(script_to_return_bool: str) -> Condition[Browser]:
     return _match.browser_has_js_returned(True, script_to_return_bool).not_
 
 
-def js_returned(expected: Any, script: str, *args) -> Condition[Browser]:
+def js_returned(expected: Any, script: str, *args) -> Condition[[], Browser]:
     return _match.browser_has_js_returned(expected, script, *args).not_
