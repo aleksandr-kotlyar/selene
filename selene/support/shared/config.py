@@ -313,7 +313,7 @@ class SharedConfig(Config):
         self.reset_driver()
 
     def reset_driver(self):
-        self.set_driver = (lambda: self._set_drivers_from_webdriver_manager())
+        self.set_driver = lambda: self._set_drivers_from_webdriver_manager()
 
     @driver.setter
     def driver(self, value: WebDriver):
