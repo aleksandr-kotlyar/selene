@@ -17,19 +17,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: technote-space/get-diff-action@v4
-        with:
-          PATTERNS: |
-            +(selene|tests)/**/*.py
-          FILES: |
-            poetry.lock
-            tests.yml
+#      - uses: technote-space/get-diff-action@v4
+#        with:
+#          PATTERNS: |
+#            +(selene|tests)/**/*.py
+#          FILES: |
+#            poetry.lock
+#            tests.yml
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-        if: env.GIT_DIFF
+#        if: env.GIT_DIFF
 
       # can be packaged as Docker-image
       - name: Install dependencies
@@ -37,20 +37,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install poetry
           poetry install
-        if: env.GIT_DIFF
+#        if: env.GIT_DIFF
 
       - name: Install browsers on Windows
         shell: powershell
         run: |
             choco install chromium opera brave --no-progress -y --force
-        if: env.GIT_DIFF
+#        if: env.GIT_DIFF
 
       - name: Tests
         run: |
           poetry run pytest -sv --cov-config .coveragerc --cov-report html:skip-covered --cov-report term:skip-covered --cov=selene  --cov-report xml:coverage.xml --tb=short tests/ --headless=True
           mkdir -p Artifacts/skip-covered
           cp -r skip-covered Artifacts/skip-covered
-        if: env.GIT_DIFF
+#        if: env.GIT_DIFF
 
       # can be improved by flags/options
       - name: Code Coverage
@@ -60,7 +60,7 @@ jobs:
           name: selene-codecov # optional
           fail_ci_if_error: true # optional (default = false)
           verbose: true
-        if: env.GIT_DIFF
+#        if: env.GIT_DIFF
 
       # can be organized better
       - name: Upload pytest test results
@@ -70,4 +70,4 @@ jobs:
           path: |
             Artifacts
             coverage.xml
-        if: env.GIT_DIFF
+#        if: env.GIT_DIFF
