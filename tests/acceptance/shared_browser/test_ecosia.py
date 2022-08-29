@@ -19,16 +19,36 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-from selene.support.shared import browser
+import pytest
+
 from selene import by, have
+from selene.support.shared import browser
 
 
-def test_search():
+@pytest.fixture(scope='function')
+def close():
+    yield
+    browser.quit()
+
+
+@pytest.mark.parametrize(
+    'browser_name, expected_browser_name',
+    [
+        ('firefox', 'firefox'),
+        ('edge', 'msedge'),
+        ('opera', 'opera'),
+        ('chrome', 'chrome'),
+        ('ie', 'ie'),
+    ]
+)
+def test_search(browser_name, expected_browser_name, close):
+    browser.config.browser_name = browser_name
+
     browser.open('https://www.ecosia.org/')
     browser.element(by.name('q')).type(
         'github yashaka selene python'
     ).press_enter()
 
     browser.all('.web-result').first.element('.result__link').click()
-
     browser.should(have.title_containing('yashaka/selene'))
+    assert browser.driver.name == expected_browser_name
