@@ -263,7 +263,9 @@ class SharedConfig(Config):
 
         def get_opera():
             options = ChromeOptions()
-            return Opera(executable_path=OperaDriverManager().install(), options=options)
+            return Opera(
+                executable_path=OperaDriverManager().install(), options=options
+            )
 
         def get_ie():
             return Ie(service=IEService(IEDriverManager().install()))
@@ -311,9 +313,7 @@ class SharedConfig(Config):
         self.reset_driver()
 
     def reset_driver(self):
-        self.set_driver = (
-            lambda: self._set_drivers_from_webdriver_manager()
-        )
+        self.set_driver = (lambda: self._set_drivers_from_webdriver_manager())
 
     @driver.setter
     def driver(self, value: WebDriver):

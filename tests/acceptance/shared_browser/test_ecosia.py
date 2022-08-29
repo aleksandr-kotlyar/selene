@@ -39,7 +39,7 @@ def close():
         ('opera', 'opera'),
         ('chrome', 'chrome'),
         ('ie', 'ie'),
-    ]
+    ],
 )
 def test_search(browser_name, expected_browser_name, close):
     browser.config.browser_name = browser_name
