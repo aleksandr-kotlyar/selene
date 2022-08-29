@@ -60,7 +60,7 @@ jobs:
           name: selene-codecov # optional
           fail_ci_if_error: true # optional (default = false)
           verbose: true
-#        if: env.GIT_DIFF
+        if: ${{ always() }}
 
       # can be organized better
       - name: Upload pytest test results
@@ -70,4 +70,4 @@ jobs:
           path: |
             Artifacts
             coverage.xml
-#        if: env.GIT_DIFF
+        if: ${{ always() }}
