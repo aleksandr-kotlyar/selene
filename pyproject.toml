@@ -1,10 +1,16 @@
-[tool.poetry]
+[project]
 name = "selene"
 version = "2.0.0rc9"
 description = "User-oriented browser tests in Python (Selenide port)"
-authors = ["Iakiv Kramarenko <yashaka@gmail.com>"]
+authors = [{name = "Iakiv Kramarenko", email = "yashaka@gmail.com"}]
 license = "MIT"
 readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "selenium>=4.12.0",
+    "pyperclip>=1.9.0,<2.0.0",
+    "typing-extensions>=4.15.0",
+]
 keywords = [
     "testing",
     "selenium",
@@ -14,23 +20,32 @@ keywords = [
     "widget",
     "wrapper"
 ]
-homepage = "https://yashaka.github.io/selene/"
-repository = "https://github.com/yashaka/selene/"
-documentation = "https://yashaka.github.io/selene/"
 classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Development Status :: 4 - Beta",
     "Natural Language :: English",
     "Environment :: Web Environment",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Software Development :: Libraries :: Application Frameworks",
     "Topic :: Internet :: WWW/HTTP :: Browsers",
     "Topic :: Software Development :: Testing",
 ]
+
+[project.urls]
+Homepage = "https://yashaka.github.io/selene/"
+Repository = "https://github.com/yashaka/selene/"
+Documentation = "https://yashaka.github.io/selene/"
+Changelog = "https://github.com/yashaka/selene/releases"
+
+[tool.poetry]
 packages = [
     {include = "selene"},
     {include = "selene/api"},
@@ -42,28 +57,17 @@ packages = [
     {include = "selene/py.typed"}
 ]
 
-[tool.poetry.urls]
-Changelog = "https://github.com/yashaka/selene/releases"
-
-[tool.poetry.dependencies]
-python = "^3.8"
-selenium = ">=4.12.0"
-pyperclip = "^1.9.0"
-future = "*"
-typing-extensions = ">=4.12.2"
-
-[tool.poetry.dev-dependencies]
-black = "^24.2.0"
+[tool.poetry.group.dev.dependencies]
+black = "^26.0.0"
 pycodestyle = "*"
-pylint = "^3.2.2"
+pylint = "4.0.5"
 pytest = "*"
 pytest-cov = "*"
 codecov = "*"
 mypy = "*"
-pydantic = "^1.10.7"
-python-dotenv = "0.21.1"
-Appium-Python-Client = "^4.2.0"
-setuptools = "^70.0.0"
+pydantic = "^2.13.3"
+python-dotenv = "^1.2.2"
+Appium-Python-Client = "^5.3.1"
 
 [tool.poetry.group.docs]
 optional = true
@@ -75,11 +79,11 @@ mkdocs = "^1.4.2"
 mkdocs-material = "^9.1.6"
 mkdocs-redirects = "^1.2.0"
 mkdocs-git-revision-date-localized-plugin = "^1.2.0"
-mkdocs-include-markdown-plugin = "^6.1.1"
+mkdocs-include-markdown-plugin = "^7.1.8"
 mkdocs-macros-plugin = "^1.0.5"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
@@ -92,10 +96,21 @@ exclude = [
     '^.+_test\.py$',
 ]
 
+[tool.pytest.ini_options]
+addopts = "--color=yes"
+markers = [
+    "smoke: critical fast checks",
+    "regression: stable functional regression",
+    "clipboard: OS/shortcut-dependent clipboard tests",
+    "speed: performance-sensitive comparisons",
+    "remote: requires remote webdriver + secrets",
+    "flaky: known unstable tests (non-blocking)",
+]
+
 
 [tool.black]
 line-length = 88
-target-version = ['py38']
+target-version = ['py310']
 skip-string-normalization = 1
 
 [tool.pylint]
