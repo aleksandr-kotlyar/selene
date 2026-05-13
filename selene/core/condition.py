@@ -35,7 +35,8 @@ else:
     from typing import Callable
 
 
-E = TypeVar('E')
+E = TypeVar('E', contravariant=True)
+T = TypeVar('T')
 R = TypeVar('R')
 
 
@@ -68,7 +69,7 @@ class Condition(Generic[E]):
         return cls(' or '.join(map(str, conditions)), fn)
 
     @classmethod
-    def for_each(cls, condition) -> Condition[Iterable[E]]:
+    def for_each(cls, condition: Condition[T]) -> Condition[Iterable[T]]:
         def fn(entity):
             items_with_error: List[Tuple[str, str]] = []
             index = None
@@ -85,7 +86,7 @@ class Condition(Generic[E]):
                     )
                 )
 
-        return typing.cast(Condition[Iterable[E]], cls(f' each {condition}', fn))
+        return typing.cast(Condition[Iterable[T]], cls(f' each {condition}', fn))
 
     @classmethod
     def as_not(
