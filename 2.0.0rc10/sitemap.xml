@@ -1,131 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/changelog/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/changelog/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/license/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/license/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/selene-cheetsheet-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-cheetsheet-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/selene-for-page-objects-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-for-page-objects-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/selene-in-action-tutorial/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-in-action-tutorial/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/selene-quick-start-tutorial/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-quick-start-tutorial/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/warn-from-next-release/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/warn-from-next-release/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/code-conventions-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/code-conventions-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/documentation-for-project-tutorial/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/documentation-for-project-tutorial/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/how-to-organize-docs-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/how-to-organize-docs-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/how-to-write-docs-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/how-to-write-docs-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/release-workflow-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/release-workflow-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/to-documentation-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/to-documentation-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/contribution/to-source-code-guide/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/to-source-code-guide/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/adding-chrome-extension-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/adding-chrome-extension-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/clipboard-copy-and-paste-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/clipboard-copy-and-paste-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/custom-test-id-selectors-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/custom-test-id-selectors-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/custom-user-profile-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/custom-user-profile-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/extending-selene-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/extending-selene-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/iframes-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/iframes-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/faq/shadow-dom-howto/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/shadow-dom-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/command/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/command/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/condition/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/condition/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/configuration/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/configuration/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/exceptions/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/exceptions/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/match/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/match/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/query/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/query/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://yashaka.github.io/selene/2.0.0rc10/reference/web/elements/</loc>
+         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/web/elements/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
 </urlset>
