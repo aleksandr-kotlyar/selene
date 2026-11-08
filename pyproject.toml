@@ -60,9 +60,9 @@ packages = [
 ]
 
 [tool.poetry.group.dev.dependencies]
-black = "^26.0.0"
+black = "^26.10.1"
 pycodestyle = "*"
-pylint = "4.0.5"
+pylint = "4.0.9"
 pytest = "*"
 pytest-cov = "*"
 pyperclip = "*"
@@ -76,8 +76,12 @@ optional = true
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.2"
-mkdocs-material = "^9.1.6"
-mkdocstrings = {extras = ["python"], version = "^0.21.2"}
+mkdocs-material = "^9.7.7"
+mkdocstrings = "0.26.1"
+mkdocstrings-python = "1.11.1"
+# pinned to the docs deps combo proven green in CI on the master line
+mkdocs-autorefs = "1.2.0"
+pymdown-extensions = "11.0.1"
 mkdocs-redirects = "^1.2.0"
 mkdocs-git-revision-date-localized-plugin = "^1.2.0"
 
