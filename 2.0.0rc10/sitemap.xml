@@ -13,26 +13,6 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-cheetsheet-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-for-page-objects-guide/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-in-action-tutorial/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/selene-quick-start-tutorial/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/warn-from-next-release/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
          <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/contribution/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
@@ -69,31 +49,7 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/adding-chrome-extension-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/clipboard-copy-and-paste-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/custom-test-id-selectors-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
          <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/custom-user-profile-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/extending-selene-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/iframes-howto/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/faq/shadow-dom-howto/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
@@ -101,31 +57,7 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/command/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/condition/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
          <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/configuration/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/exceptions/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/match/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/query/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
-         <loc>https://aleksandr-kotlyar.github.io/selene/2.0.0rc10/reference/web/elements/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
 </urlset>
